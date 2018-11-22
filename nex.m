@@ -1,4 +1,4 @@
-%Reflactive indices (Sellmeier's equation)
+%Refractive indices (Sellmeier's equation)
 %Valid in the full transparency range (0.188-5.2 um) of BBO crystal.
 
 %Extraordinary ray
