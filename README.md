@@ -11,7 +11,7 @@ The phase-matching angle is calculated using this equation:
   
 <img src="https://latex.codecogs.com/gif.latex?\theta_m&space;=\mathrm{arcsin}\left[\sqrt{\frac{\left[\lambda&space;_3\left&space;(\frac{n_o_r(\lambda_1)}{\lambda_1}&plus;\frac{n_o_r(\lambda_2)}{\lambda_2}\right)\right]^{-2}-[n_o_r(\lambda_3)]^{-2}}{[n_e_x(\lambda_3)]^{-2}-[n_o_r(\lambda_3)]^{-2}}}\right&space;]"/>  　　
 
-Here, the &lambda;<sub>1</sub> and &lambda;<sub>2</sub> are the wavelengths of the input beams and required to specify in the program. The output wavelength &lambda;<sub>3</sub> is calculated automatically. 
+Here, &lambda;<sub>1</sub> and &lambda;<sub>2</sub> are the wavelengths of the input beams and required to specify in the program. On the other hand, the output wavelength &lambda;<sub>3</sub> is calculated automatically. 
 
 # The dependence of the refractive indices on the wavelength
 The refractive indices for the extraordinary and ordinary rays can be plotted as a function of the wavelength by running the code "plotrefractiveindex.m." The calculation is conducted in the wavelength range of 0.188 - 5.2 um. It should be noted that the absorption process occurs when the wavelength exceeds 3.3 um. For detailed discussion about the absorbance, please refer to the literature (G. Tamosauskas, G. Beresnevicius, D. Gadonas, and A. Dubietis, Opt. Mater. Express, 8, 1410 (2018)).
